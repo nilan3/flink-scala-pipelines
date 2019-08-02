@@ -1,0 +1,27 @@
+*.iml
+*.sw?
+*.jar
+*.log
+*.iws
+*.class
+.DS_Store
+
+# Python byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+
+*.cache
+
+# IDEs stuff
+.idea
+target
+out
+**/.dir-locals.el
+\.vscode/
+
+# Tests
+**/tests/**/templates/
+.pytest_cache/
+venv/
+.tox/
+project/target/
