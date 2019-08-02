@@ -1,0 +1,10 @@
+flink:
+  appName: kafka-test-stream
+  master: local[*]
+  shuffle_partitions: 20
+  consoleWriter: true
+
+kafka:
+  bootstrap_servers: localhost:9092
+  zk_servers: localhost:2181
+  input_topic: test_topic
